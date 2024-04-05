@@ -63,14 +63,14 @@ In this project, we evaluated several supervised learning models, including Deci
 
   Overall, the model performed well and the hypothesis proved to be true.  The AdaBoost model improved our accuracy and seemed to handle the imbalanced data much better than others explored. 
 
-###Decision Tree: .724
+### Decision Tree: .724
 he Decision Tree model was one of the top performing models with a 72.41% Accuracy Score. Initially this was the highest performing model. 
 
 We tried a multitude of techniques to get the accuracy score higher. Examples of this include resampling using SMOTE, testing scaled vs. unscaled data and removing a variety of variables.
 
 Ultimately, this model wasn’t performing quite up to our standards. All of the techniques we used could not bring the accuracy score above a 0.7241. 
 
-###Logistic Regression: .600
+### Logistic Regression: .600
 The Logistic Regression model was one of our weakest models with an ROC AUC Score of 60%, which ran on scaled/cleaned data.
 
 Initially, we did not have strong confidence in the model due to the hypothesis that the feature set may be too complex.
