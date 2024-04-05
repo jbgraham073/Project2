@@ -1,4 +1,4 @@
-# Credit Card Default Prediction Model
+# Credit Card Default Prediction
 AI Bootcamp Group Project 2
 
 ---
