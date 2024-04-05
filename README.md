@@ -44,12 +44,13 @@ We explored the dataset by leveraging supervised learning models which included 
 
 In this project, we evaluated several supervised learning models, including Decision Tree, Logistic Regression, Extra Trees Classifier, and Gradient Boosting. Among these, the Gradient Boosting model stood out, achieving the highest performance with a training score of 0.823 and a testing score of 0.826. This indicates that Gradient Boosting is well-suited for this dataset and outperformed other models in terms of classification accuracy.
 
-- Gradient Boosting: .826
+### Gradient Boosting: .826
   The hypothesis for the Gradient Boosting model was similar to the thoughts of deploying the AdaBoost model due to the general principles that it should be less prone to overfitting and handles mixed data 
   types well.
 
   Overall the Gradient Boost model was our highest performing model with both the Training and Testing Scores, proving our hypothesis true when looking at our dataset and the benefits of the model framework. 
 ### Random Forrest: .820
+
 ### Extra Trees Classifier: .820
   The Extra Trees Classfier performed poorly out of the gate, coming in severely overfit with a 99.9% training score.  While the model performed much better after the SMOTE technique was applied, it was still 
   not our top performing model with this dataset.
