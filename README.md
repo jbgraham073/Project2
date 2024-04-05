@@ -49,7 +49,7 @@ In this project, we evaluated several supervised learning models, including Deci
   types well.
 
   Overall the Gradient Boost model was our highest performing model with both the Training and Testing Scores, proving our hypothesis true when looking at our dataset and the benefits of the model framework. 
-### Random Forrest: .820
+### Random Forrest: .665
 
 ### Extra Trees Classifier: .820
   The Extra Trees Classfier performed poorly out of the gate, coming in severely overfit with a 99.9% training score.  While the model performed much better after the SMOTE technique was applied, it was still 
