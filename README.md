@@ -49,7 +49,12 @@ In this project, we evaluated several supervised learning models, including Deci
   types well.
 
   Overall the Gradient Boost model was our highest performing model with both the Training and Testing Scores, proving our hypothesis true when looking at our dataset and the benefits of the model framework. 
-### Random Forrest: .665
+### Random Forest: .665
+Random Forest models can be used for both classification and regression tasks. Since we are trying to predict the likelihood of default, we should use a classifier, as the final output is a discrete label/category.
+
+Random Forest modeling generally provides high accuracy even when using diverse or incomplete datasets. Because it uses random feature selection, it should resist overfitting data as well.
+
+As predicted, we were able to attain a reasonable degree of accuracy, but it was not precise enough for our needs. Even adjusting the max depth of the trees, the number of estimators, and the minimum number of samples required for a split failed to improve performance.
 
 ### Extra Trees Classifier: .820
   The Extra Trees Classfier performed poorly out of the gate, coming in severely overfit with a 99.9% training score.  While the model performed much better after the SMOTE technique was applied, it was still 
