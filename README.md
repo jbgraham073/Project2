@@ -1,6 +1,5 @@
 # Project_2
 AI Bootcamp Group Project 2
-Creating a README file is a crucial step for documenting your project on building models for credit card default prediction. Below is a template you can customize and expand based on your project's specifics. This README aims to be clear, concise, and informative for anyone who wants to understand, use, or contribute to your project.
 
 ---
 
@@ -29,55 +28,34 @@ The dataset used for this project contains information on credit card users, inc
 
 ### Source
 
-Provide information about where the dataset comes from, any necessary citations, and if there are any restrictions on its use.
+[Kaggle Default of Credit Card Clients in Taiwan](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset)
 
-## Installation
 
-Instructions on setting up the project environment:
+## Data Overview
 
-```bash
-git clone https://github.com/yourrepository/CreditCardDefaultPrediction.git
-cd CreditCardDefaultPrediction
-pip install -r requirements.txt
-```
+### Collection
+We found inconsistencies in variable columns, such as unexpected values like 0 in the marriage status column which should’ve only contained 1,2 and 3. We removed rows with unknown values and eliminated the customer ID column to prevent potential model disruptions.
 
-## Usage
+### Clean Up
+We found inconsistencies in variable columns, such as unexpected values like 0 in the marriage status column which should’ve only contained 1,2 and 3. We removed rows with unknown values and eliminated the customer ID column to prevent potential model disruptions.
 
-Detailed steps on how to run the model:
+### Exploration
+We explored the dataset by leveraging supervised learning models which included Decision Tree, Logistic Regression, Extra Trees Classifier, Gradient Boosting, and more
 
-```bash
-python model_train.py
-python model_evaluate.py
-```
 
-## Model Overview
+## Model Overview & Evaluation
 
-Briefly describe the model(s) you've experimented with, including their type (e.g., logistic regression, random forest, neural networks), key features, and rationale for selection.
+In this project, we evaluated several supervised learning models, including Decision Tree, Logistic Regression, Extra Trees Classifier, and Gradient Boosting. Among these, the Gradient Boosting model stood out, achieving the highest performance with a training score of 0.823 and a testing score of 0.826. This indicates that Gradient Boosting is well-suited for this dataset and outperformed other models in terms of classification accuracy.
 
-### Training
+- Gradient Boosting: .826
+- Random Forrest: .820
+- Extra Trees Classifier: .820
+- Adapted Boosting Classifier: .820
+- Decision Tree: .724
+- Logistic Regression: .600
 
-Discuss the training process, including any data preprocessing, feature engineering, and model tuning techniques employed.
+The results suggest that Gradient Boosting is a powerful technique for classification tasks, offering several benefits. It excels at capturing complex patterns in the data, as evidenced by its superior performance compared to other models. Additionally, Gradient Boosting is robust against overfitting and can handle high-dimensional datasets effectively. Overall, these findings highlight the benefits of using Gradient Boosting for classification tasks, especially when dealing with complex datasets where accurate predictions are crucial.
 
-### Evaluation
 
-Explain the evaluation metrics (e.g., accuracy, F1-score, ROC AUC) and the performance of the model.
 
-## Results
 
-Summarize the results, including key findings and any limitations encountered during the project.
-
-## Contributing
-
-Guidelines for contributing to the project, including coding standards, pull request process, etc.
-
-## License
-
-Specify the license under which the project is released, such as MIT, GPL, etc.
-
-## Contact
-
-Provide information on how to reach you for further inquiries or contributions to the project.
-
----
-
-Remember to keep your README updated as your project evolves. It's the first place people will look to understand what your project does, how they can use it, or how they can contribute.
