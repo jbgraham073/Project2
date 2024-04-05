@@ -1,10 +1,7 @@
-# Project_2
+# Project_2: Credit Card Default Prediction Model
 AI Bootcamp Group Project 2
 
 ---
-
-# Credit Card Default Prediction Model
-
 ## Project Overview
 
 This project focuses on developing predictive models to identify the likelihood of credit card default among users. Utilizing a dataset comprising various user attributes and historical financial behavior, we aim to employ machine learning techniques to forecast potential defaults. This initiative seeks to aid financial institutions in mitigating risks and making informed decisions regarding credit lending.
